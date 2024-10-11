@@ -1,6 +1,5 @@
 # Caderno virtual - Lógica da Programação e Algoritmos
-Boas vindas! Este é seu caderno virtual. Aqui você deverá guardar todos os conceitos aprendidos e atiuvidades dessa unidade curricular. 
-
+Boas vindas! Este é meu caderno virtual. Aqui você encontrará todos os conceitos e atividades dessa unidade curricular. 
 
 ## Conteúdo Técnico
 Escreva aqui os conteúdos aprendidos.
@@ -8,6 +7,14 @@ Escreva aqui os conteúdos aprendidos.
 
 
 ## Atividades desenvolvidas
-Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
-
-
+- Aula 08/08 https://codepen.io/chomebook-cau-/pen/wvLqeMG
+- Aula 12/08 https://codepen.io/chomebook-cau-/pen/yLdbmEN
+- Aula 16-20/08 https://codepen.io/chomebook-cau-/pen/ZEdvozJ
+- Atividade tiktok https://codepen.io/chomebook-cau-/pen/bGPKBLB
+- Aula 06/09 https://codepen.io/chomebook-cau-/pen/QWXzgpw
+- Atividade array https://codepen.io/chomebook-cau-/pen/OJedjaR
+- Aula 10/09 https://codepen.io/chomebook-cau-/pen/dyBrbWo
+- Aula Jogo https://codepen.io/chomebook-cau-/pen/xxvVOpG
+- Atividade função 04-07/10 https://codepen.io/chomebook-cau-/pen/qBeNzEg
+- Split o8/10 https://codepen.io/chomebook-cau-/pen/oNKzoLO
+- Atividade função array 10/10 https://codepen.io/chomebook-cau-/pen/dyxOdNZ
