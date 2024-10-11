@@ -2,6 +2,37 @@
 Boas vindas! Este é meu caderno virtual. Aqui você encontrará todos os conceitos e atividades dessa unidade curricular. 
 
 ## Conteúdo Técnico
+### JavaScript
+#### o que é:
+- JavaScript é uma linguagem de programação de orientada a objetos, utilizada para adicionar interatividade e dinamicidade a páginas web. Juntamente com HTML e CSS, e permite a manipulação do Document Object Model (DOM), comunicação assíncrona e desenvolvimento de aplicações web completas. Além disso, O JavaScript também pode ser executado no lado do servidor.
+
+### VARIÁVEIS
+#### var
+- Têm escopo global ou de função. podem ser atualizadas e declaradas novamente. EX:
+```js
+var x = 10;
+console.log(x); // 10
+
+var x = 20; // Re-declaração
+console.log(x); // 20
+```
+
+#### let
+- Têm escopo de bloco. podem ser atualizadas, mas não podem ser declaradas novamente. EX:
+```js  
+let y = 10;
+y = 30; // Isso é válido
+console.log(y); // 30
+```
+
+#### const
+- Não podem ser atualizadas nem declaradas novamente. EX:
+```js    
+const z = 10;
+// z = 20; // Isso geraria um erro
+console.log(z); // 10
+```
+
 ### Tipos de dados
 #### STRING
 - UMA SEQUÊNCIA DE CARACTERES LIMITADA POR ASPAS SIMPLES (' ') OU ASPAS DUPLAS (" "). EX:
@@ -22,12 +53,6 @@ let altura = 1.75;
 ```js    
 let estaChovendo = TRUE;
 let temSol = FALSE;
-```
-### 
-#### 
--  EX:
-```js
-
 ```
 
 ## Atividades desenvolvidas
