@@ -49,10 +49,44 @@ let altura = 1.75;
 ```
 
 #### BOOLEAN
-- REPRESENTA UM VALOR LOGICO (VERDADEIRO [TRUE] OU FALSO [FALSE])EX:
+- REPRESENTA UM VALOR LOGICO (VERDADEIRO [TRUE] OU FALSO [FALSE]). EX:
 ```js    
 let estaChovendo = TRUE;
 let temSol = FALSE;
+```
+
+### ESTRUTURAS CONDICIONAIS 
+#### IF/ELSE
+- EXECUTA UM BLOCO DE CODIGO SE A CONDIÇÃO FOR VERDADEIRA (IF), CASO A CONDIÇÃO SEJA FALSA OUTRO BLOCO (ELSE [OPICIONAL]) SERÁ EXECUTADO. EX:
+```js
+let idade = 18;
+if (idade >= 18) {
+console.log("VOCE É MAIOR DE IDADE")
+}else{
+console.log("VOCE É MENOR DE IDADE")
+}
+```
+
+#### SWITCH CASE
+- PERMITE ESCOLHER ENTRE VÁRIAS OPÇÕES DE EXECUÇÃO COM BASE NO VALOR DE UMA EXPRESSÃO. EX:
+```js  
+let diaDaSemana = 3;
+
+switch (diaDaSemana) {
+  case 1:
+    console.log("Hoje é segunda-feira!");
+    break;
+  case 2:
+    console.log("Hoje é terça-feira!");
+    break;
+  case 3:
+    console.log("Hoje   
+ é quarta-feira!");
+    break;   
+
+  default:
+    console.log("Dia inválido!");
+}
 ```
 
 ## Atividades desenvolvidas
