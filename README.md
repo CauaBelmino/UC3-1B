@@ -2,9 +2,33 @@
 Boas vindas! Este é meu caderno virtual. Aqui você encontrará todos os conceitos e atividades dessa unidade curricular. 
 
 ## Conteúdo Técnico
-Escreva aqui os conteúdos aprendidos.
+### Tipos de dados
+#### STRING
+- UMA SEQUÊNCIA DE CARACTERES LIMITADA POR ASPAS SIMPLES (' ') OU ASPAS DUPLAS (" "). EX:
+```js
+let nome = "Tereza";
+let sobrenome = 'oliveira';
+```
 
+#### NUMBER
+- QUALONER NÚMERO INTEIRO OU DECIMAL REPRESENTADO SEM ASPAS. EX:
+```js  
+let idade = 30;
+let altura = 1.75;
+```
 
+#### BOOLEAN
+- REPRESENTA UM VALOR LOGICO (VERDADEIRO [TRUE] OU FALSO [FALSE])EX:
+```js    
+let estaChovendo = TRUE;
+let temSol = FALSE;
+```
+### 
+#### 
+-  EX:
+```js
+
+```
 
 ## Atividades desenvolvidas
 - Aula 08/08 https://codepen.io/chomebook-cau-/pen/wvLqeMG
