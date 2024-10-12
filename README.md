@@ -55,6 +55,35 @@ let estaChovendo = TRUE;
 let temSol = FALSE;
 ```
 
+### OPERADORES LÓGICOS 
+#### USADOS PARA COMBINAR CONDIÇÕES. ELES RESPONDEM PERGUNTAS COMO "E", "OU" e "NÃO".
+- E (&&): AMBAS AS CONDIÇÕES PRECISAM SER VERDADEIRAS. EXEMPLO: 
+```js
+let idade = 30;
+idade >= 18 && temCarteiraDeMotorista
+```
+
+- OU (||): APENAS UMA DAS CONDIÇÕES PRECISAM SER VERDADEIRA. EXEMPLO: 
+```js
+let estaEnsolarado = true;
+let estaFrio = false;
+
+if (estaEnsolarado || !estaFrio) {
+    console.log("Posso sair!");
+} else {
+    console.log("Melhor ficar em casa.");
+}
+```
+
+- NÃO (!): INVERTE O RESULTADO DE UMA CONDIÇÃO. EXEMPLO: 
+```js
+let estaChovendo = false;
+
+if (!estaChovendo) {
+  console.log("Podemos ir à praia!");
+}
+```
+
 ### ESTRUTURAS CONDICIONAIS 
 #### IF/ELSE
 - EXECUTA UM BLOCO DE CODIGO SE A CONDIÇÃO FOR VERDADEIRA (IF), CASO A CONDIÇÃO SEJA FALSA OUTRO BLOCO (ELSE [OPICIONAL]) SERÁ EXECUTADO. EX:
