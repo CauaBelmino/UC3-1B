@@ -7,7 +7,7 @@ Boas vindas! Este é meu caderno virtual. Aqui você encontrará todos os concei
 - JavaScript é uma linguagem de programação de orientada a objetos, utilizada para adicionar interatividade e dinamicidade a páginas web. Juntamente com HTML e CSS, e permite a manipulação do Document Object Model (DOM), comunicação assíncrona e desenvolvimento de aplicações web completas. Além disso, O JavaScript também pode ser executado no lado do servidor.
 
 ### VARIÁVEIS
-#### var
+#### VAR
 - Têm escopo global ou de função. podem ser atualizadas e declaradas novamente. EX:
 ```js
 var x = 10;
@@ -17,7 +17,7 @@ var x = 20; // Re-declaração
 console.log(x); // 20
 ```
 
-#### let
+#### LET
 - Têm escopo de bloco. podem ser atualizadas, mas não podem ser declaradas novamente. EX:
 ```js  
 let y = 10;
@@ -25,7 +25,7 @@ y = 30; // Isso é válido
 console.log(y); // 30
 ```
 
-#### const
+#### CONST
 - Não podem ser atualizadas nem declaradas novamente. EX:
 ```js    
 const z = 10;
@@ -87,6 +87,28 @@ switch (diaDaSemana) {
   default:
     console.log("Dia inválido!");
 }
+```
+
+### ARRAY
+- SERVE PARA GUARDAR VÁRIOS VALORES, UM EM CADA POSIÇÃO. ESSES VALORES PODEM SER NÚMEROS, PALAVRAS, OU OUTRAS ARRAYS. EX: 
+```js
+// Criando um array de frutas
+let frutas = ["maçã", "banana", "laranja"];
+
+// Acessando um elemento do array
+console.log(frutas[0]); // Imprime: maçã
+```
+
+### FUNÇÃO  
+- SÃO BLOCOS DE CÓDIGO QUE DESEMPENHAM UM PAPEL FUNDAMENTAL PODENDO SER CHAMADOS E EXECUTADOS VARIAS VEZES EM DIFERENTES PARTES DO PROGRAMA PERMITINDO A ORGANIZAÇÃO LÓGICA. EX:
+```js
+let nome = "Tereza";
+
+function saudacao(nome) {
+  console.log("Olá, " + nome + "!");
+}
+
+saudacao("Tereza"); // Imprime: Olá, Tereza!
 ```
 
 ## Atividades desenvolvidas
