@@ -83,6 +83,88 @@ if (!estaChovendo) {
   console.log("Podemos ir à praia!");
 }
 ```
+### OPERADORES DE COMPARAÇÃO 
+#### 
+- IGUAL (==): VERIFICA SE OS TERMOS COMPARADOS SÃO IGUAIS. EXEMPLO: 
+```js
+let x = 10;
+let y = "10";
+
+console.log(x == y); // Isso irá imprimir true
+```
+
+- NÃO IGUAL (!=):VERIFICA SE OS TERMOS COMPARADOS SÃO DIFERENTES. EXEMPLO: 
+```js
+let x = 10;
+let y = 5;
+
+if (x != y) {
+  console.log("x e y são diferentes!");
+} else {
+  console.log("x e y são iguais!");
+}
+```
+
+- ESTRITAMENTE IGUAL (===): VERIFICA SE OS TERMOS SÃO IGUAIS E DO MESMO TIPO. EXEMPLO: 
+```js
+let numero1 = 10;
+let numero2 = 10;
+
+console.log(numero1 === numero2); // Imprime: true
+
+let numero = 10;
+let texto = "10";
+
+console.log(numero === texto); // Imprime: false
+```
+
+- ESTRITAMENTE NÃO IGUAL (!==): VERIFICA SE OS TERMOS NÃO SÃO IGUAIS E NÃO SEJAM DO MESMO TIPO. EXEMPLO: 
+```js
+let x = 5;
+let y = "5";
+
+console.log(x !== y); // Saída: true
+```
+
+- MAIOR QUE (>): VERIFICA SE UM VALOR E MAIOR QUE O OUTRO. EXEMPLO: 
+```js
+let x = 10;
+let y = 5;
+console.log(x > y); // Imprime: true
+```
+
+- MENOR QUE (<): VERIFICA SE UM VALOR E MENOR QUE O OUTRO. EXEMPLO: 
+```js
+let numero1 = 10;
+let numero2 = 15;
+
+console.log(numero1 < numero2); // Imprime: true
+console.log(numero2 < numero1); // Imprime: false
+```
+
+- MAIOR OU IGUAL QUE (>=): VERIFICA SE UM VALOR E MAIOR OU IGUAL A OUTRO. EXEMPLO: 
+```js
+let idade = 18;
+let idadeMinima = 18;
+
+if (idade >= idadeMinima) {
+  console.log("Você tem idade suficiente para entrar.");
+} else {
+  console.log("Você ainda não tem idade suficiente para entrar.");
+}
+```
+
+- MENOR OU IGUAL QUE (<=): VERIFICA SE UM VALOR E MENOR OU IGUAL A OUTRO. EXEMPLO: 
+```js
+let idade = 16;
+let idadeMinima = 15;
+
+if (idade >= idadeMinima) {
+  console.log("Você pode entrar!");
+} else {
+  console.log("Você ainda não pode entrar.");
+}
+```
 
 ### ESTRUTURAS CONDICIONAIS 
 #### IF/ELSE
